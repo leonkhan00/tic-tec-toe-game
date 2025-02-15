@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gameContainerMain {
+    width:100%;
+    height: 100vh;
+    background-color: #6a9d1c;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+}
+.gameContainer {
+    height: 70vmin;
+}
+.gameHeader {
+    margin: 2rem 0rem 3rem 0rem;
+}
+.gameHeader h1 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+.choices {
+    height:60vmin;
+    width: 60vmin; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 4rem;
+    background-color: #bf0e20;
+    color: #fff;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+}
+.resetGame {
+    margin: 2rem 2rem;
+}
+#resetGame {
+    padding: 1.5rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    color: #fffbfb;
+    background-color: #3A5683;
+    font-size: 1.5rem;
+}
+.msgContainer {
+    height: 100vh;
+    padding-top: 50%;
+
+}
+.hide {
+    display: none;
+}
+#msg {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+#newGame {
+    padding: 1.5rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    color: #fffbfb;
+    background-color: #3A5683;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
